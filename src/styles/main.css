@@ -1,0 +1,17 @@
+html,
+body,
+#app {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.pc-px {
+  @apply px-8vw;
+}
+
+@screen lt-lg {
+  .pc-px {
+    @apply px-4vw;
+  }
+}
